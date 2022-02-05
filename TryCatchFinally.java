@@ -1,4 +1,4 @@
-package lab212;
+
 import java.util.Scanner;
 public class TryCatchFinally
 {
