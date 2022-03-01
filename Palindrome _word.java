@@ -8,7 +8,7 @@ class HelloWorld {
         word=s.next();
         len=word.length();
         for(j=len-1;j>=0;j--)
-         rev=rev+word.charAt(i);
+         rev=rev+word.charAt(j);
         if(word.equals(rev))
          System.out.println("The entered string is a palindrome word");
         else
