@@ -43,10 +43,10 @@ public class Matrix_multiplication {
 		{
 			for(j=0;j<c1;j++)
 			{
-				for(k=0;k<r2;k++)
-					s+=mat1[i][k]*mat2[k][j];
-				pro[i][j]=s;
-				s=0;
+			  pro[i][j]=0;
+			    for(k=0;k<r2;k++)
+				s+=mat1[i][k]*mat2[k][j];
+				
 			}
 		}
 		System.out.println("Product matrix");
